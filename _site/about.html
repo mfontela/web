@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>About Me</title>
+
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-binding-2.0.3/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.0.3/leaflet-providers-plugin.js"></script>
+<link href="site_libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.css" rel="stylesheet" />
+<script src="site_libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.min.js"></script>
+<link href="site_libs/ionicons-2.0.1/ionicons.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Marcos Fontela</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="about.html">About Me</a>
+</li>
+<li>
+  <a href="outreach.html">Outreach</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">About Me</h1>
+
+</div>
+
+
+<p align="center">
+<img src="MarcosFontela_feb2019.jpeg" />
+</p>
+<div id="education" class="section level2">
+<h2>Education</h2>
+<ul>
+<li><p>BSc Oceanography (University of Vigo 2005-2010)</p></li>
+<li><p>BSc Biology (University of Santiago de Compostela 2010-2012)</p></li>
+<li><p>MSc Microbiology (University Complutense of Madrid 2013-2014)</p></li>
+<li><p>PhD Oceanography (Institute of Marine Research - IIM-CSIC, Vigo 2015-2018)</p></li>
+</ul>
+<p>You can find more information in the map. The little points in the ocean are stations of the oceanographic cruises in which I have participated so far: the <a href="http://www.umr-lops.fr/Projets/Projets-actifs/RREX" target="_blank">“Reykjanes Ridge Experiment” (RREX)</a> in 2015 and 2017; the <a href="http://bocats.iim.csic.es/en" target="_blank">“BOCATS-OVIDE”</a> in 2016 and 2018 and the FICARAM cruise in 2019.</p>
+<div id="htmlwidget-d9e62cb9c8073e62207a" style="width:100%;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d9e62cb9c8073e62207a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addAwesomeMarkers","args":[[42.225819,42.874531,42.168033,40.444995,43.358374,48.359207,40.965177,37.043424],[-8.752196,-8.556955,-8.684633,-3.726289,-5.870631,-4.558632,-5.671087,-7.97325],{"icon":"university","markerColor":["red","blue","blue","blue","blue","green","green","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red"],"iconColor":"black","spin":false,"squareMarker":false,"iconRotate":0,"font":"monospace","prefix":"ion"},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["I get my PhD degree in the Institute of Marine Research - CSIC of Vigo (IIM-CSIC), under the supervision of Dr. Fiz F. Pérez. It is in this place where I felt that I was doing real science for first time!","In the University of Santiago de Compostela I made a 2nd BSc, this time in Biology.","My first contact with the university world was in the Faculty of Marine Sciences in Vigo. Here I get a BSc in Oceanography.","While working in Madrid I completed a MSc in Microbiology, in the Complutense University of Madrid. My master these was on bioinformatics (as you probably noticed, I am a bit geek… and love programming!)","I also studied one year in the University of Oviedo as a exchange student when I was in Santiago de Compostela. It was curious because this city, Uviéu (Asturies),  is where I was born and where I lived until the start of the university!","In the spring-summer of 2017 I did a research stay in the Laboratoire d’Océanographie Physique et Spatiale (LOPS) in Brest. What a beautiful place to advance into inverse modelling approaches!","During 2016-2017, I visited several times the Ionic Radiations Laboratory of Salamanca University. Yes, I know: it is a weird work place for an oceanographer! ... but it is a laboratory with an astonishing equipment that we are using in order to detect the onset of the Anthropocene in deep-sea sediments. It sounds cool, right?","Currently, I have a junior research position in the CCMAR of Algarve. Let's make a carbon chemistry lab in the South of Europe!"],null,null,null,["IIM-CSIC","University of Santiago de Compostela","University of Vigo","Complutense University of Madrid","University of Oviedo","Ifremer Centre de Brest","University of Salamanca","Center of Marine Sciences (CCMAR)"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[52.1038627,54.2609965,55.1560074,55.3100087,55.4676485,55.6218292,55.7772213,55.9969493,56.2448179,56.4001041,56.733089,56.9400692,56.725414,56.7599767,56.4490924,56.5232742,57.1305681,57.0591554,56.8498183,56.7485931,56.5991924,56.6392112,56.6869544,56.7272015,56.7700444,59.3621484,59.299127,59.2324816,59.1644446,59.1016286,59.0385073,58.9722598,58.9099879,58.845024,58.7270951,58.5500519,58.4104193,58.2075615,57.9702262,58.092249,57.586315,57.6748057,57.3788223,57.1501865,56.9300757,60.2996262,60.5702773,60.8398692,61.1102696,61.3796382,61.6501318,61.9193565,62.188942,62.4599762,62.7299784,63.0000618,62.9983861,62.9998785,63.000627,62.9997569,63.0001595,63.0001444,63.0000221,62.9997092,63.00002,63.0001512,63.0005581,63.4167708,62.9999843,62.6991924,62.4006344,62.0992297,61.799859,61.4998027,61.1998074,60.9032721,60.5998623,60.3003527,60.0498259,59.8003279,59.5501164,59.300618,59.0496518,58.8442795,58.4286353,58.9821505,58.9238037,58.7724579,58.5301952,58.1993223,57.8798397,57.5796444,57.3097781,56.9496765,56.9100781,56.8497137,56.7803111,56.7684879,56.7525346,56.7252523,56.7101588,56.7017243,56.8246162,56.7986673,56.782688,56.7729314,56.7488511,56.7348594,56.3996662,56.0499987,55.7998015,55.3498881,55.0496822,54.6494407,54.249286,53.9494785,53.5494973,53.1497148,52.8402336,52.7449891,52.7299984,52.7013413,52.6644348,52.631483,52.4494163,52.3495528,52.2598437,51.8999804,51.5503629,51.0602096,50.7503637,50.3481368,49.9501177],[-18.4105872,-27.4563542,-31.3357751,-31.6710517,-32.008165,-32.3440949,-32.6773281,-33.2153757,-33.6850834,-34.0192561,-33.7166579,-33.8527304,-33.7585588,-33.9221876,-34.4206001,-34.9985488,-35.1207198,-35.1817488,-35.3704285,-35.4680055,-35.6285835,-36.2288016,-36.8285408,-37.5319056,-38.1872982,-36.3992331,-35.762733,-35.1157413,-34.4908458,-33.8321076,-33.1885198,-32.547811,-31.910591,-31.2686919,-30.6943762,-30.3653803,-30.1010178,-29.7216206,-29.2741581,-29.3935766,-28.4481748,-28.7259528,-28.1721803,-27.7494001,-27.335232,-20.9966397,-21.3594507,-21.7195647,-22.0802095,-22.4381724,-22.8005287,-23.1603237,-23.5209873,-23.8784486,-24.2412744,-24.7504907,-25.3626268,-26.1273149,-26.8920698,-27.6564914,-28.4185666,-29.1816932,-29.9458074,-30.7087052,-31.4728062,-32.2374014,-33.0004739,-23.9171523,-24.7520899,-25.2370886,-25.7208535,-26.2052841,-26.6906255,-27.1755023,-27.6590242,-28.1185136,-28.5790438,-29.0370159,-29.4215739,-29.8050303,-30.1871746,-30.5700261,-30.9528892,-31.2675153,-30.025066,-32.1598824,-31.5612483,-30.6757245,-31.4208967,-31.7509612,-32.1188205,-32.4768709,-32.8212877,-33.3025781,-33.3542419,-33.4327884,-33.5244505,-33.5388995,-33.5588038,-33.5941403,-33.6157646,-33.6265037,-34.1936083,-34.1689454,-34.1540739,-34.1449416,-34.1232524,-34.1100615,-34.0209378,-34.2856974,-34.4736228,-34.8144243,-35.0005832,-35.0800751,-35.0800044,-35.0795552,-35.0791072,-35.0799373,-35.0802076,-35.08007,-35.0794515,-35.0800569,-35.0799617,-35.0796476,-35.078999,-35.0798002,-35.0804617,-35.079757,-35.0812792,-35.0795667,-35.0797342,-35.0792436,-35.0796189],1,null,null,{"interactive":true,"className":"","stroke":true,"color":"blue","weight":5,"opacity":0.5,"fill":true,"fillColor":"blue","fillOpacity":0.2},null,null,["Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015","Reykjanes Ridge Experiment 2015"],null,["RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015","RREX-2015"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[40.3331,40.3345,40.3341,40.334,40.3345,40.3343,40.3341,40.3342,40.3341,40.3342,40.3342,40.3339,40.3341,40.5523,40.9362,41.3824,41.836,42.2804,42.5791,42.885,43.183,43.478,43.7744,44.0758,44.3783,44.6738,45.052,45.4191,45.7939,46.1691,46.5418,46.9177,47.2912,47.6625,48.0367,48.4099,48.7872,49.1579,49.5344,49.904,50.2823,50.6459,51.028,51.4021,51.7705,52.148,52.5189,52.8895,53.2652,53.6393,54.018,54.3879,54.762,55.1491,55.5061,55.8829,56.2555,56.631,57.013,57.3806,57.6737,57.9695,58.2102,58.4108,58.5493,58.7264,58.8463,58.9104,58.9752,59.041,59.1011,59.1664,59.2336,59.2994,59.3635,59.4276,59.4922,59.5596,59.6247,59.6542,59.6856,59.7049,59.7242,59.7399,59.7576,59.7718,59.7978,59.7972,59.8084,59.816,59.8182,59.8215,59.8308,59.8458,59.8595,59.8758,59.8913,59.9038,59.913,58.547,55.3491,55.6714,55.9076,56.3988,56.6353,56.7021,56.7249,56.7811,56.7998,56.8502,56.9098,56.9499,57.1753,57.5776,57.8003,58.2003,58.5303,58.8452,58.9706,58.8451,59.05,59.3003,59.5496,59.8,60.24,60.4699,60.5992,60.9028,61.2014,61.4989,61.7998,62.1001,62.4,62.7,63.0002,63.4166],[-9.4642,-9.6432,-9.7679,-9.8051,-9.8794,-9.942,-10.0341,-10.3001,-10.572,-10.9059,-11.339,-11.7743,-12.221,-12.6555,-13.2952,-13.8903,-14.4771,-15.0625,-15.4595,-15.8517,-16.2447,-16.6356,-17.0291,-17.4253,-17.8177,-18.2107,-18.5032,-18.7947,-19.0861,-19.3765,-19.6745,-19.9683,-20.2637,-20.5599,-20.852,-21.1409,-21.4329,-21.7265,-22.0182,-22.3127,-22.6085,-22.8997,-23.2017,-23.4853,-23.7849,-24.0734,-24.3585,-24.6591,-24.948,-25.24,-25.5301,-25.8309,-26.1203,-26.4111,-26.7076,-26.9983,-27.2984,-27.5883,-27.8825,-28.1726,-28.7238,-29.2802,-29.7298,-30.1042,-30.3665,-30.6994,-31.2697,-31.912,-32.5549,-33.1924,-33.8338,-34.4763,-35.114,-35.7623,-36.398,-37.0386,-37.6779,-38.3187,-38.9582,-39.2773,-39.6001,-39.9187,-40.2532,-40.5808,-40.9072,-41.2951,-41.7281,-42.0032,-42.2341,-42.2751,-42.3131,-42.3979,-42.5201,-42.6006,-42.7012,-42.7955,-42.9058,-43.0041,-43.0754,-30.1831,-34.8138,-34.5708,-34.3939,-34.0208,-33.713,-33.626,-33.5939,-33.5242,-33.4845,-33.4331,-33.3543,-33.3035,-33.0018,-32.4779,-32.2167,-31.7504,-31.4223,-31.2696,-32.0975,-31.2687,-30.9527,-30.5696,-30.1883,-29.8062,-29.1293,-28.7782,-28.5793,-28.118,-27.659,-27.1756,-26.6917,-26.2056,-25.7221,-25.2371,-24.7521,-23.9172],1,null,null,{"interactive":true,"className":"","stroke":true,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.2},null,null,["BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018","BOCATS/OVIDE 2016 & 2018"],null,["BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016","BOCATS-2016"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[51.25331,56.7698,56.72653,56.68643,56.64014,56.59984,56.52345,56.44988,56.39816,56.93832,56.73155,56.24515,56.01129,55.77711,55.6221,55.46718,55.30924,55.15492,56.93002,57.15116,57.37937,57.57914,57.67471,57.96987,58.20961,58.09882,58.43768,58.41085,58.54991,58.76828,58.92725,59.42844,59.36262,59.30022,59.23336,59.16517,59.10167,59.03879,58.97335,59.08788,58.98031,58.91007,58.84579,58.72668,62.99954,63.0025,62.99996,62.99983,62.99861,63.00106,63.00005,63.00072,62.99715,63.00238,62.99888,62.99913,63.41677,62.99902,62.70002,62.25232,61.79973,61.35407,60.90306,60.47685,60.30069,60.04999,59.80008,59.55027,59.30167,59.05002,58.77346,58.84661,58.52964,58.40021,58.19997,57.87981,57.50255,57.2501,56.95009,56.91034,56.84949,56.78048,56.77305,56.75289,56.7336,56.71426,56.7025,56.39927,56.04965,55.79996,55.41254,55.28724,55.11619,54.95019,54.64977,54.44426,54.25001,54.10608,53.95013,53.5505,53.14934,53.02169,52.74566,52.72998,52.70128,52.66523,52.63092,52.44983,52.35052,52.26037,51.90002,51.55137,51.05986,50.75242,50.34947,49.94939,49.54997,49.14961,48.7483,48.35022],[-47.18266,-38.18462,-37.53167,-36.82717,-36.22785,-35.62726,-34.99875,-34.42022,-34.01893,-33.84036,-33.70419,-33.68166,-33.18045,-32.67672,-32.34142,-32.00858,-31.67345,-31.3339,-27.33761,-27.74805,-28.17012,-28.43337,-28.72735,-29.27473,-29.72483,-29.39882,-30.02932,-30.10313,-30.36672,-30.66604,-31.55851,-37.03885,-36.39892,-35.76489,-35.11528,-34.48808,-33.83342,-33.18782,-32.54955,-33.25257,-32.15359,-31.9117,-31.2691,-30.69417,-33.99981,-33.00273,-32.24065,-31.47363,-30.7112,-29.94567,-29.18498,-28.41739,-27.65414,-26.89117,-26.12685,-25.36381,-23.91643,-24.75323,-25.23939,-25.95857,-26.69289,-27.41009,-28.11898,-28.76679,-29.03931,-29.42146,-29.80624,-30.1863,-30.57265,-30.95083,-30.66344,-31.26782,-31.41843,-31.54879,-31.74945,-32.11772,-32.57667,-32.91248,-33.3026,-33.35411,-33.43115,-33.7142,-33.71644,-33.71669,-33.71641,-33.71604,-33.71567,-34.02009,-34.28475,-34.47225,-34.76637,-34.85181,-34.95896,-35.01988,-35.07921,-35.07866,-35.08047,-35.08012,-35.07826,-35.0794,-35.07954,-35.07983,-35.08146,-35.08065,-35.08103,-35.08046,-35.08034,-35.07934,-35.07869,-35.08093,-35.07798,-35.0812,-35.07923,-35.07916,-35.07954,-35.07831,-35.07868,-35.07899,-35.08024,-35.08117],1,null,null,{"interactive":true,"className":"","stroke":true,"color":"darkcyan","weight":5,"opacity":0.5,"fill":true,"fillColor":"darkcyan","fillOpacity":0.2},null,null,["Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017","Reykjanes Ridge Experiment 2017"],null,["RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017","RREX-2017"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[-49.9128675,-48.3060229166667,-47.6833366666667,-47.10504125,-46.5193604166667,-45.9186708333333,-45.3054816666667,-44.6922395833333,-44.1007383333333,-43.5002979166667,-42.9070254166667,-42.34635875,-41.7356133333333,-41.12061125,-40.51147,-39.9175004166667,-39.3057033333333,-38.6824083333333,-38.0785425,-37.4883145833333,-36.9170225,-36.29125375,-35.6829866666667,-35.10553125,-34.4715029166667,-33.87562,-33.3074916666667,-30.34561,-29.7007995833333,-29.1254770833333,-28.4939666666667,-27.9038570833333,-27.3219966666667,-26.7079783333333,-26.0888491666667,-25.514335,-24.9033995833333,-24.3117733333333,-23.7146658333333,-23.10340375,-22.3731325,-21.6187208333333,-20.6230908333333,-19.58291875,-18.6249966666667,-17.82061125,-17.0435095833333,-15.8737358333333,-15.1928858333333,-14.0931066666667,-12.9835204166667,-11.8550545833333,-10.8052341666667,-9.68867416666667,-8.5907225,-7.49644666666667,-6.39260083333333,-5.31958541666667,-4.1945375,-3.10303833333333,-2.0091025,-0.998764583333333,0.00637,1.31097041666667,2.40796083333333,3.52238416666667,4.60228083333333,5.69272041666667,6.7973875,7.91020416666667,9.00470416666667,10.0799266666667,11.40337375,20.2982391666667,21.3680845833333,22.4426333333333,23.5002825,24.59590875],[-59.1498945833333,-54.9244820833333,-54.4189916666667,-53.8635920833333,-53.3411541666667,-52.7894520833333,-52.2910670833333,-51.7170708333333,-51.2378683333333,-50.7022825,-50.19762,-49.6861933333333,-49.0836829166667,-48.6743383333333,-48.1125104166667,-47.5351841666667,-47.02810625,-46.4384633333333,-45.9733583333333,-45.46156625,-44.95145625,-44.3973995833333,-43.89861,-43.33278125,-42.82582625,-42.3394575,-41.8041083333333,-39.2531058333333,-38.6691,-38.15839125,-37.6053404166667,-37.0897991666667,-36.56037,-36.0348579166667,-35.5215316666667,-35.0041625,-34.4691370833333,-33.9385266666667,-33.4207991666667,-32.89322375,-32.8405683333333,-32.7853554166667,-32.9729108333333,-32.8619525,-32.3918345833333,-31.63112375,-31.20438125,-30.6910220833333,-30.6419566666667,-30.5808825,-30.53435,-30.4847516666667,-30.4218741666667,-30.3664279166667,-30.3201583333333,-30.2540666666667,-29.7780558333333,-29.3041895833333,-28.7496558333333,-28.0355295833333,-27.3160145833333,-26.5961058333333,-25.9980120833333,-26.0104791666667,-25.8069066666667,-25.6077595833333,-25.4299966666667,-25.2523525,-25.0520666666667,-24.8596933333333,-24.6863116666667,-24.5215366666667,-24.27198,-23.475035,-22.5370108333333,-21.5971370833333,-20.6563329166667,-19.7003775],1,null,null,{"interactive":true,"className":"","stroke":true,"color":"white","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":0.2},null,null,["FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019"],null,["FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019","FICARAM-2019"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-49.9128675,63.4167708],"lng":[-59.1498945833333,-3.726289]}},"evals":[],"jsHooks":[]}</script>
+</div>
+
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><sub>Marcos Fontela, 2020 &#169;. This web is made with R-markdown.</sub></p>
+<p style="text-align: center;">
+  <a href="mailto:mmfontela[at]ualg[dot]pt" target="_blank" rel="noopener"><i class="fa fa-2x fa-envelope"></i>
+  </a>&nbsp; &nbsp; &nbsp;
+  <a href=" https://orcid.org/0000-0002-7486-0922" target="_blank" rel="noopener">ORCID</a> &nbsp; &nbsp; &nbsp;
+  <a href="https://twitter.com/MarcosFontela" target="_blank" rel="noopener"><i class="fa fa-2x fa-twitter"></i></a></p>
+  <sub>
+ <p style="text-align: center;">
+<script language="javascript"> 
+months = ['January', 'Febraury', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']; 
+var d=new Date();
+var weekday=new Array(7);
+weekday[0]="Sunday";
+weekday[1]="Monday";
+weekday[2]="Tuesday";
+weekday[3]="Wednesday";
+weekday[4]="Thursday";
+weekday[5]="Friday";
+weekday[6]="Saturday";
+
+var d = new Date();
+(d.getFullYear());
+
+
+var theDate = new Date(document.lastModified); 
+theDate.setTime((theDate.getTime()+(60*60)) ) 
+with (theDate) { 
+document.write("<i>Last updated "+weekday[getDay()]+' '+getDate()+' '+months[getMonth()]+' '+d.getFullYear()+' '+getHours()+':'+getMinutes()+" GMT</i>") 
+} 
+</script> 
+</p>
+</sub>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

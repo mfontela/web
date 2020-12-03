@@ -1,0 +1,21 @@
+name: mfontela-website
+navbar:
+  title: Marcos Fontela
+  left:
+  - icon: fa-home
+    href: index.html
+  - text: Publications
+    href: publications.html
+  - text: About Me
+    href: about.html
+  - text: Outreach
+    href: outreach.html  
+output:
+  html_document:
+    theme: flatly
+    css: style.css
+    lib_dir: site_libs
+    self_contained: no
+    include:
+      after_body: footer.html
+
