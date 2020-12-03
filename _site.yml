@@ -5,7 +5,7 @@ navbar:
   - icon: fa-home
     href: index.html
   - text: Publications
-    href: publications.html
+    href: publications.html 
   - text: About Me
     href: about.html
   - text: Outreach
@@ -13,7 +13,7 @@ navbar:
 output:
   html_document:
     theme: flatly
-    css: style.css
+    css: style.css #Dentro de este archivo, con a y a:hover cambio color link y resalte respectivamente
     lib_dir: site_libs
     self_contained: no
     include:

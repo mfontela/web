@@ -3,3 +3,16 @@ img {
   display: block;
   margin: 2 auto;
 }
+
+a {
+
+ color: #008B8B;
+
+}
+
+
+a:hover {
+
+  color: #00008B;
+
+}
