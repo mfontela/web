@@ -23,7 +23,16 @@ As a scientist deeply committed with **public awareness of science**, I think th
 
 ## Teaching materials
 
+* [CANAIMOC Workshop](CANAIMOC.html){target="_blank"}, Carbon cycle in the ocean and methods to estimate anthropogenic carbon, IFREMER-Brest, February 2021.
+
 * [eOMP](OMP_simplificado.html){target="_blank"}, Distribución de masas de agua: análisis OMP extendido - Caso práctico, Máster interuniversitario de Oceanografía ULPGC, 2019.
+
+
+## Seminars
+
+* [North Atlantic Ocean acidification impacts](https://youtu.be/LzdHTnkhzw8?t=2022){target="_blank"}, Ocean Carbon & Biogeochemistry [OCB](https://www.us-ocb.org/) Seminar Series, 2021.
+
+* Atmospheric and Marine Biogeochemistry ([AMB](https://twitter.com/ueaenvamb)) seminar series in the School of Environmental Sciences at the [University of East Anglia](https://www.uea.ac.uk/), October 2020.
 
 
 ## Blog posts
