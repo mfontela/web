@@ -4,7 +4,7 @@
 #working on at the time. 
 setwd("C:/Users/MFontela/Documents/web")
 
-#render your sweet site. 
+#render your site. 
 rmarkdown::render_site(encoding = 'UTF-8')
 
 # #NOTA: después de generarlo, lo mejor es copiar todo el contenido
