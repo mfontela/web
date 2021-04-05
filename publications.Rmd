@@ -14,7 +14,7 @@ title: "Publications"
 -   **Fontela, M.**, Velo, A., Gilcoto, M., Pérez, F., 2021 - [Anthropogenic CO~2~ and ocean acidification in Argentine Basin Water Masses over almost five decades of observations](https://www.sciencedirect.com/science/article/pii/S0048969721016387){target="_blank"}. Science of The Total Environment. DOI: 10.1016/j.scitotenv.2021.146570
 
 
-    -   Software open access: **Fontela, M.** 2021. [mfontela/ArgentineBasin: Tracer trends in Argentine Basin Water Masses (Version v1)](https://zenodo.org/record/4589961){target="_blank"}. Zenodo.
+    -   Code for reproducibility: **Fontela, M.** 2021. [mfontela/ArgentineBasin: Tracer trends in Argentine Basin Water Masses (Version v1)](https://zenodo.org/record/4589961){target="_blank"}. Zenodo.
 
 
 -   **Fontela, M.**, Pérez, F., Mercier, H., Lherminier. P., 2020 - [North Atlantic Western Boundary Currents are intense dissolved organic carbon streams](https://www.frontiersin.org/articles/10.3389/fmars.2020.593757){target="_blank"} Frontiers in Marine Science. DOI: 10.3389/fmars.2020.593757
