@@ -8,6 +8,9 @@ title: "Publications"
 
 *(Date order)*
 
+-   Pérez, F., Olafsson, J., Ólafsdóttir,R., **Fontela, M.** & Takahashi, T., 2021 - [Contrasting drivers and trends of ocean acidification in the subarctic Atlantic](https://www.nature.com/articles/s41598-021-93324-3){target="_blank"}. Scientific Reports, 11, 13991. DOI: 10.1038/s41598-021-93324-3
+
+
 -   García-Ibañez, M.I., Bates, N., Bakker, D., **Fontela, M.**, Velo, A. 2021 - [Cold-water corals in the Subpolar North Atlantic Ocean exposed to aragonite undersaturation if the 2°C global warming target is not met](https://www.sciencedirect.com/science/article/pii/S0921818121000655){target="_blank"}. Global and Planetary Change. DOI: 10.1016/j.gloplacha.2021.103480
 
 
