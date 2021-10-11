@@ -30,11 +30,11 @@ library(leaflet)
 
 #Input data
 info <- read_excel("web_map_info.xlsx")
-RREX15 <- read_excel("C:/Users/MFontela/Nextcloud/Database/RREX15_DATABASE.xlsx")
-BOCATS <- read_excel("C:/Users/MFontela/Nextcloud/Database/DataBaseBOCATS_20161019_forMATLAB.xlsx")
-RREX17 <- read_excel("C:/Users/MFontela/Nextcloud/RREX/RREX 2017/DATA/ALL/RREX2017ffp.xlsx", 
+RREX15 <- read_excel("C:/Users/MFontela/OneDrive - Universidade de Vigo/Database/RREX15_DATABASE.xlsx")
+BOCATS <- read_excel("C:/Users/MFontela/OneDrive - Universidade de Vigo/Database/DataBaseBOCATS_20161019_forMATLAB.xlsx")
+RREX17 <- read_excel("C:/Users/MFontela/OneDrive - Universidade de Vigo/RREX/RREX 2017/DATA/ALL/RREX2017ffp.xlsx", 
     sheet = "RREX2017_ODV")
-F19<-read_excel("C:/Users/MFontela/Nextcloud/FICARAM/DATA/FICARAM2019_ALL.xlsx")
+F19<-read_excel("C:/Users/MFontela/OneDrive - Universidade de Vigo/FICARAM/DATA/FICARAM2019_ALL.xlsx")
 
 # Add cruises
 RREX15<-RREX15%>%
