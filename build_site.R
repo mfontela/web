@@ -11,3 +11,5 @@ rmarkdown::render_site(encoding = 'UTF-8')
 # y luego haciendo un push (flecha verde)
 
 #Otro link importante: https://login.ionos.es/ (lo del dominio)
+
+#Otro tip: si las fotos pierden la posición centrada, repassa las <p align="center"> </p> del html (que nos las duplique)
