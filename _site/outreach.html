@@ -13,13 +13,22 @@
 
 <title>Outreach &amp; Divulgation</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -36,11 +45,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -53,32 +57,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -90,10 +68,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -110,40 +84,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -171,7 +118,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -183,7 +130,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -194,10 +141,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -209,7 +169,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -287,7 +246,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
   </a>
 </li>
@@ -308,7 +267,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -317,75 +276,174 @@ $(document).ready(function () {
 </div>
 
 
-<p>As a scientist deeply committed with <strong>public awareness of science</strong>, I think that a good communication is important to expand the reach of our work into the society. Here I show some of the sites/working groups where I have collaborated.</p>
+<p>As a scientist deeply committed with <strong>public awareness of
+science</strong>, I think that a good communication is important to
+expand the reach of our work into the society. Here I show some of the
+sites/working groups where I have collaborated.</p>
 <p align="center">
 <img src="MarcosFontela_filmisnotdead.jpeg" />
 </p>
 <div id="networking" class="section level2">
 <h2>Networking</h2>
 <ul>
-<li><p>Member of the working group: <a href="https://www.euromarinenetwork.eu/OYSTER" target="_blank">Orienting Young Scientists of EuroMarine “OYSTER”</a>, a <a href="https://www.euromarinenetwork.eu/" target="_blank">EUROMARINE</a> group established to engage and support early career marine scientists.</p></li>
-<li><p>Member of the <a href="https://www.pml.ac.uk/Research/Projects/North_East_Atlantic_hub_of_the_Global_Ocean_Acidif" target="_blank">North East Atlantic hub of the Global Ocean Acidification Observing Network (GOA-ON)</a>, of <a href="http://www.goa-on.org/" target="_blank">GOA-ON</a>.</p></li>
-<li><p><a href="https://climatefeedback.org/" target="_blank">Climate Feedback Reviewer</a>, I belong to a network of scientists that fact-checks media coverage of climate change.</p></li>
-<li><p>Member of the <a href="http://pastglobalchanges.org/ecn/intro" target="_blank">Past Global Changes Early-Career Network (PAGES ECN)</a> and the Young Earth System Scientists community <a href="https://www.yess-community.org/" target="_blank">YESS</a>.</p></li>
+<li><p>Member of the working group: <a
+href="https://www.euromarinenetwork.eu/OYSTER" target="_blank">Orienting
+Young Scientists of EuroMarine “OYSTER”</a>, a <a
+href="https://www.euromarinenetwork.eu/" target="_blank">EUROMARINE</a>
+group established to engage and support early career marine
+scientists.</p></li>
+<li><p>Member of the <a
+href="https://www.pml.ac.uk/Research/Projects/North_East_Atlantic_hub_of_the_Global_Ocean_Acidif"
+target="_blank">North East Atlantic hub of the Global Ocean
+Acidification Observing Network (GOA-ON)</a>, of <a
+href="http://www.goa-on.org/" target="_blank">GOA-ON</a>.</p></li>
+<li><p><a href="https://climatefeedback.org/" target="_blank">Climate
+Feedback Reviewer</a>, I belong to a network of scientists that
+fact-checks media coverage of climate change.</p></li>
+<li><p>Member of the <a href="http://pastglobalchanges.org/ecn/intro"
+target="_blank">Past Global Changes Early-Career Network (PAGES ECN)</a>
+and the Young Earth System Scientists community <a
+href="https://www.yess-community.org/"
+target="_blank">YESS</a>.</p></li>
 </ul>
 </div>
 <div id="teaching-materials" class="section level2">
 <h2>Teaching materials</h2>
 <ul>
-<li><p><a href="CANAIMOC.html" target="_blank">CANAIMOC Workshop</a>, Carbon cycle in the ocean and methods to estimate anthropogenic carbon, IFREMER-Brest, February 2021.</p></li>
-<li><p><a href="OMP_simplificado.html" target="_blank">eOMP</a>, Distribución de masas de agua: análisis OMP extendido - Caso práctico, Máster interuniversitario de Oceanografía ULPGC, 2019.</p></li>
+<li><p><a href="app_alumnos.txt" target="_blank">ECOI_P2</a>, Práctica
+2, Ecología I. Muestreo de poblaciones naturales: estimación del tamaño
+poblacional y de la distribución espacial. Grado en Biología, UVIGO,
+Octubre 2022.</p></li>
+<li><p><a href="CANAIMOC.html" target="_blank">CANAIMOC Workshop</a>,
+Carbon cycle in the ocean and methods to estimate anthropogenic carbon,
+IFREMER-Brest, February 2021.</p></li>
+<li><p><a href="OMP_simplificado.html" target="_blank">eOMP</a>,
+Distribución de masas de agua: análisis OMP extendido - Caso práctico,
+Máster interuniversitario de Oceanografía ULPGC, 2019.</p></li>
 </ul>
 </div>
 <div id="seminars" class="section level2">
 <h2>Seminars</h2>
 <ul>
-<li><p><a href="https://youtu.be/LzdHTnkhzw8?t=2022" target="_blank">North Atlantic Ocean acidification impacts</a>, Ocean Carbon &amp; Biogeochemistry <a href="https://www.us-ocb.org/">OCB</a> Seminar Series, 2021.</p></li>
-<li><p>Atmospheric and Marine Biogeochemistry (<a href="https://twitter.com/ueaenvamb">AMB</a>) seminar series in the School of Environmental Sciences at the <a href="https://www.uea.ac.uk/">University of East Anglia</a>, October 2020.</p></li>
+<li><p><a href="https://youtu.be/LzdHTnkhzw8?t=2022"
+target="_blank">North Atlantic Ocean acidification impacts</a>, Ocean
+Carbon &amp; Biogeochemistry <a href="https://www.us-ocb.org/">OCB</a>
+Seminar Series, 2021.</p></li>
+<li><p>Atmospheric and Marine Biogeochemistry (<a
+href="https://twitter.com/ueaenvamb">AMB</a>) seminar series in the
+School of Environmental Sciences at the <a
+href="https://www.uea.ac.uk/">University of East Anglia</a>, October
+2020.</p></li>
 </ul>
 </div>
 <div id="blog-posts" class="section level2">
 <h2>Blog posts</h2>
 <ul>
-<li><a href="https://superscienceme.wordpress.com/2018/04/05/otros-corales/" target="_blank">Los otros corales</a>, SuperScienceMe, 2018.</li>
+<li><a
+href="https://superscienceme.wordpress.com/2018/04/05/otros-corales/"
+target="_blank">Los otros corales</a>, SuperScienceMe, 2018.</li>
 </ul>
 </div>
 <div id="news" class="section level2">
 <h2>News</h2>
 <p><em>(NOTE: they are mostly in Spanish)</em></p>
 <ul>
-<li><p><a href="https://www.scidev.net/america-latina/news/acidificacion-amenaza-supervivencia-marina-en-el-atlantico-sur/" target="_blank">Acidificación amenaza supervivencia marina en el Atlántico Sur</a>, Scidev.Net, 2021.</p></li>
-<li><p><a href="https://climatefeedback.org/evaluation/atlantic-ocean-circulation-system-is-slowing-down-as-accurately-described-in-the-new-york-times-article/" target="_blank">Atlantic ocean circulation system is slowing down, as accurately described in The New York Times article</a>, Climate Feedback, 2021.</p></li>
-<li><p><a href="https://marabaixo.gal/podcast-entrevista-marcos-fontela/" target="_blank">Podcast - Entrevista blog Mar Abaixo</a>, 2020.</p></li>
-<li><p><a href="https://www.20minutos.es/noticia/4387313/0/cambio-climatico-corales-profundidades-acidificacion-oceano/" target="_blank">Disueltos como aspirinas: así es como la acidificación del océano está acabando con algunos de los seres más antiguos del planeta</a>, 20minutos, 2020.</p></li>
-<li><p><a href="https://www.lavozdegalicia.es/noticia/sociedad/2020/09/09/investigadoresdescubren-nueva-amenaza-atlantico/00031599660610531517284.htm" target="_blank">Investigadores descubren una nueva amenaza en el Atlántico</a>, La Voz de Galicia, 2020.</p></li>
-<li><p><a href="https://www.lavozdegalicia.es/noticia/sociedad/2019/08/23/mancha-atlantico-anomalia-preocupa-cientificos/00031566555906635538536.htm" target="_blank">La mancha del Atlántico: una anomalía que preocupa a los científicos</a>, La Voz de Galicia, 2019.</p></li>
-<li><p><a href="https://climatefeedback.org/claimreview/2c-not-known-point-of-no-return-as-jonathan-franzen-claims-new-yorker/" target="_blank">2°C is not known to be a “point of no return”, as Jonathan Franzen claims</a>, Climate Feedback, 2019.</p></li>
-<li><p><a href="https://www.lavozdegalicia.es/noticia/biodiversa/2018/08/10/galicia-futuro-refugio-coral/0003_201808H10P55991.htm" target="_blank">Galicia, el futuro refugio del coral</a>, La Voz de Galicia, 2018.</p></li>
-<li><p><a href="https://www.carbonbrief.org/acidification-could-leave-oceans-uninhabitable-cold-water-corals" target="_blank">Acidification could leave oceans ‘uninhabitable’ for cold-water corals</a>, Carbon Brief, 2018.</p></li>
-<li><p><a href="https://elpais.com/elpais/2018/02/12/ciencia/1518425669_495853.html" target="_blank">Los corales de aguas frías también se están muriendo</a>, El País, 2018.</p></li>
-<li><p><a href="https://www.lavozdegalicia.es/noticia/vigo/vigo/2018/02/27/contaminacion-acabara-corales-atlantico-pocas-decadas/0003_201802V27C3991.htm" target="_blank">La contaminación acabará con los corales del Atlántico en pocas décadas</a>, La Voz de Galicia, 2018.</p></li>
-<li><p><a href="http://www.gciencia.com/mar/corais-augas-frias-nature/" target="_blank">Científicos galegos alertan en “Nature” de que os corais de augas frías están en perigo</a>, GCiencia, 2018.</p></li>
-<li><p><a href="https://www.elperiodico.com/es/medio-ambiente/20180212/cambio-climatico-profundidades-oceanicas-6619851" target="_blank">El cambio climático amenaza las profundidades oceánicas</a>, El Periodico de Catalunya, 2018.</p></li>
-<li><p><a href="https://www.farodevigo.es/sociedad/2018/03/03/estudio-participacion-vigues-muestra-acidificacion/1848277.html">La acidificación del Atlántico Norte amenaza a los arrecifes de coral</a>, Faro de Vigo, 2018.</p></li>
-<li><p><a href="https://www.farodevigo.es/gran-vigo/2018/05/22/tesis-viguesa-ratifica-papel-atlantico/1896351.html" target="_blank">Una tesis viguesa ratifica el papel del Atlántico Norte como destacado sumidero del carbono atmosférico</a>, Faro de Vigo, 2018.</p></li>
-<li><p><a href="http://www.gciencia.com/mar/tese-atlantico-carbono/" target="_blank">Unha tese afonda na relación entre as correntes do Atlántico e os sumidoiros de carbono</a>, Gciencia, 2018.</p></li>
+<li><p><a
+href="https://www.scidev.net/america-latina/news/acidificacion-amenaza-supervivencia-marina-en-el-atlantico-sur/"
+target="_blank">Acidificación amenaza supervivencia marina en el
+Atlántico Sur</a>, Scidev.Net, 2021.</p></li>
+<li><p><a
+href="https://climatefeedback.org/evaluation/atlantic-ocean-circulation-system-is-slowing-down-as-accurately-described-in-the-new-york-times-article/"
+target="_blank">Atlantic ocean circulation system is slowing down, as
+accurately described in The New York Times article</a>, Climate
+Feedback, 2021.</p></li>
+<li><p><a
+href="https://marabaixo.gal/podcast-entrevista-marcos-fontela/"
+target="_blank">Podcast - Entrevista blog Mar Abaixo</a>, 2020.</p></li>
+<li><p><a
+href="https://www.20minutos.es/noticia/4387313/0/cambio-climatico-corales-profundidades-acidificacion-oceano/"
+target="_blank">Disueltos como aspirinas: así es como la acidificación
+del océano está acabando con algunos de los seres más antiguos del
+planeta</a>, 20minutos, 2020.</p></li>
+<li><p><a
+href="https://www.lavozdegalicia.es/noticia/sociedad/2020/09/09/investigadoresdescubren-nueva-amenaza-atlantico/00031599660610531517284.htm"
+target="_blank">Investigadores descubren una nueva amenaza en el
+Atlántico</a>, La Voz de Galicia, 2020.</p></li>
+<li><p><a
+href="https://www.lavozdegalicia.es/noticia/sociedad/2019/08/23/mancha-atlantico-anomalia-preocupa-cientificos/00031566555906635538536.htm"
+target="_blank">La mancha del Atlántico: una anomalía que preocupa a los
+científicos</a>, La Voz de Galicia, 2019.</p></li>
+<li><p><a
+href="https://climatefeedback.org/claimreview/2c-not-known-point-of-no-return-as-jonathan-franzen-claims-new-yorker/"
+target="_blank">2°C is not known to be a “point of no return”, as
+Jonathan Franzen claims</a>, Climate Feedback, 2019.</p></li>
+<li><p><a
+href="https://www.lavozdegalicia.es/noticia/biodiversa/2018/08/10/galicia-futuro-refugio-coral/0003_201808H10P55991.htm"
+target="_blank">Galicia, el futuro refugio del coral</a>, La Voz de
+Galicia, 2018.</p></li>
+<li><p><a
+href="https://www.carbonbrief.org/acidification-could-leave-oceans-uninhabitable-cold-water-corals"
+target="_blank">Acidification could leave oceans ‘uninhabitable’ for
+cold-water corals</a>, Carbon Brief, 2018.</p></li>
+<li><p><a
+href="https://elpais.com/elpais/2018/02/12/ciencia/1518425669_495853.html"
+target="_blank">Los corales de aguas frías también se están
+muriendo</a>, El País, 2018.</p></li>
+<li><p><a
+href="https://www.lavozdegalicia.es/noticia/vigo/vigo/2018/02/27/contaminacion-acabara-corales-atlantico-pocas-decadas/0003_201802V27C3991.htm"
+target="_blank">La contaminación acabará con los corales del Atlántico
+en pocas décadas</a>, La Voz de Galicia, 2018.</p></li>
+<li><p><a href="http://www.gciencia.com/mar/corais-augas-frias-nature/"
+target="_blank">Científicos galegos alertan en “Nature” de que os corais
+de augas frías están en perigo</a>, GCiencia, 2018.</p></li>
+<li><p><a
+href="https://www.elperiodico.com/es/medio-ambiente/20180212/cambio-climatico-profundidades-oceanicas-6619851"
+target="_blank">El cambio climático amenaza las profundidades
+oceánicas</a>, El Periodico de Catalunya, 2018.</p></li>
+<li><p><a
+href="https://www.farodevigo.es/sociedad/2018/03/03/estudio-participacion-vigues-muestra-acidificacion/1848277.html">La
+acidificación del Atlántico Norte amenaza a los arrecifes de coral</a>,
+Faro de Vigo, 2018.</p></li>
+<li><p><a
+href="https://www.farodevigo.es/gran-vigo/2018/05/22/tesis-viguesa-ratifica-papel-atlantico/1896351.html"
+target="_blank">Una tesis viguesa ratifica el papel del Atlántico Norte
+como destacado sumidero del carbono atmosférico</a>, Faro de Vigo,
+2018.</p></li>
+<li><p><a href="http://www.gciencia.com/mar/tese-atlantico-carbono/"
+target="_blank">Unha tese afonda na relación entre as correntes do
+Atlántico e os sumidoiros de carbono</a>, Gciencia, 2018.</p></li>
 </ul>
 </div>
 <div id="radio" class="section level2">
 <h2>Radio</h2>
 <ul>
-<li><a href="http://www.canalextremadura.es/alacarta/radio/audios/principio-de-incertidumbre-el-co2-y-la-destruccion-de-los-corales-del" target="_blank">El CO<sub>2</sub> y la destrucción de los corales del Atlántico Norte</a>, Principio de Incertidumbre, Radio Extremadura, 2018.</li>
+<li><a
+href="http://www.canalextremadura.es/alacarta/radio/audios/principio-de-incertidumbre-el-co2-y-la-destruccion-de-los-corales-del"
+target="_blank">El CO<sub>2</sub> y la destrucción de los corales del
+Atlántico Norte</a>, Principio de Incertidumbre, Radio Extremadura,
+2018.</li>
 </ul>
 </div>
 <div id="other-dissemination-activities" class="section level2">
 <h2>Other dissemination activities</h2>
 <ul>
-<li><p><a href="https://vecop.vfairs.com/" target="_blank">Virtual Early Career Ocean Professional (V.ECOP) Day</a>, June 1, 2021. <a href="https://www.youtube.com/watch?v=f3XQTaW3CZk" target="_blank">A live walk through a chemical oceanography survey (GO-SHIP line)</a>(Video)</p></li>
-<li><p>Invited speaker at <a href="http://www.iim.csic.es/index.php/event/galego-ciclo-galicia-no-antropoceno-cambio-climatico-e-outros-retos-ambientais/" target="_blank">Galicia no Antropoceno: Cambio Climático e outros retos ambientais</a> with the conference <em>Impactos de la acidificación oceánica en Galicia.</em>, 2018.</p></li>
-<li><p>Several activities of scientific divulgation in high schools with interactive experiments: <strong>“Ocean Acidification: the other problem of CO<sub>2</sub>”.</strong></p></li>
+<li><p><a href="https://vecop.vfairs.com/" target="_blank">Virtual Early
+Career Ocean Professional (V.ECOP) Day</a>, June 1, 2021. <a
+href="https://www.youtube.com/watch?v=f3XQTaW3CZk" target="_blank">A
+live walk through a chemical oceanography survey (GO-SHIP
+line)</a>(Video)</p></li>
+<li><p>Invited speaker at <a
+href="http://www.iim.csic.es/index.php/event/galego-ciclo-galicia-no-antropoceno-cambio-climatico-e-outros-retos-ambientais/"
+target="_blank">Galicia no Antropoceno: Cambio Climático e outros retos
+ambientais</a> with the conference <em>Impactos de la acidificación
+oceánica en Galicia.</em>, 2018.</p></li>
+<li><p>Several activities of scientific divulgation in high schools with
+interactive experiments: <strong>“Ocean Acidification: the other problem
+of CO<sub>2</sub>”.</strong></p></li>
 </ul>
-<p>My willingness is to expand the outreach of the scientific work beyond the academic world, so if you think I can help you, please don’t hesitate to contact me! I will do my best, for sure!</p>
+<p>My willingness is to expand the outreach of the scientific work
+beyond the academic world, so if you think I can help you, please don’t
+hesitate to contact me! I will do my best, for sure!</p>
 </div>
 
 <p style="text-align: center;">&nbsp;</p>
@@ -448,7 +506,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

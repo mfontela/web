@@ -1,0 +1,6 @@
+library(shiny)
+library(readxl)
+#Load data
+Eucaliptal <- read_excel("Eucaliptal.xlsx") #necesitas tener el archivo en la misma carpeta desde donde corres este script
+
+runGist("d187da1452afdac491400cb4d60651c1")
