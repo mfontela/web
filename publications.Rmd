@@ -8,13 +8,16 @@ title: "Publications"
 
 </p>
 
+
 *(Date order)*
+
 
 -   *(in preparation)* **Fontela, M.**, Velo, A., Brown,P. J., Pérez, F., 2023 - [Carbonate System Species and pH](){target="_blank"}. Book chapter in Marine Analytical Chemistry Springer Nature Switzerland AG 2023 J. Blasco, A. Tovar-Sánchez (eds.).
 
 -   Schadeberg, A., Ford, E., Wieczorek, A.M., Gammage, L.C., López-Acosta, M., Buselic, I., Turk Dermastia, T., **Fontela, M.**, Galobart, C., Llopis Monferrer, N., Lubośny, M., Piarulli, S., Suaria, G., 2022. - [Productivity, pressure, and new perspectives: impacts of the COVID-19 pandemic on marine early-career researchers.](https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsac167/6748269){target="_blank"}. ICES Journal of Marine Science. <DOI:10.1093/icesjms/fsac167>
 
     -   Code for reproducibility: **Fontela, M.** & López-Acosta, M. 2022. [Code to reproduce figures in "Productivity, pressure and new perspectives: Impacts of the COVID-19 pandemic on early-career marine researchers"](https://zenodo.org/record/6656133){target="_blank"}. Zenodo.
+
 
 -   Pérez, F., Olafsson, J., Ólafsdóttir,R., **Fontela, M.** & Takahashi, T., 2021 - [Contrasting drivers and trends of ocean acidification in the subarctic Atlantic](https://www.nature.com/articles/s41598-021-93324-3){target="_blank"}. Scientific Reports, 11, 13991. DOI: 10.1038/s41598-021-93324-3
 
