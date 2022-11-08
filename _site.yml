@@ -10,6 +10,8 @@ navbar:
     href: about.html
   - text: Outreach
     href: outreach.html  
+  - text: Mentoring
+    href: mentoring.html      
 output:
   html_document:
     theme: flatly

@@ -17,7 +17,7 @@ title: "About Me"
 
 
 
-You can find more information in the map. The little points in the ocean are stations of the oceanographic cruises in which I have participated so far: the ["Reykjanes Ridge Experiment" (RREX)](http://www.umr-lops.fr/Projets/Projets-actifs/RREX){target="_blank"} in 2015 and 2017;  the ["BOCATS-OVIDE"](http://bocats.iim.csic.es/en){target="_blank"} in 2016, 2018 and 2021 and the FICARAM cruise in 2019.
+You can find more information in the map. The little points in the ocean are stations of the oceanographic cruises in which I have participated so far: the ["Reykjanes Ridge Experiment" (RREX)](http://www.umr-lops.fr/Projets/Projets-actifs/RREX){target="_blank"} in 2015 and 2017;  the ["BOCATS-OVIDE"](http://bocats.iim.csic.es/en){target="_blank"} in 2016, 2018 and 2021 and the FICARAM cruise in 2019. Recently, at the end of 2022, I had my first experience as PI of an oceanographic cruise in the SW of the Iberian Upwelling System ["EUROFLEETS+ SINES"](https://express.adobe.com/page/zXixsvSEip2uq/)
 
 ```{r echo=FALSE}
 #Para los links de las publicaciones: Acúerdate de ponerle el target="_blank" al archivo .html que te genera luego si quieres que no te fusile la puta ventana 
@@ -46,7 +46,7 @@ RREX15<-RREX15%>%
 BOCATS<-BOCATS%>%
     distinct((Station),.keep_all = T)%>%
   select(Latitude,Longitude)%>%
-  mutate(site="BOCATS-2016", colour=5, note="BOCATS/OVIDE 2016 & 2018")%>%
+  mutate(site="BOCATS-2016", colour=5, note="BOCATS/OVIDE 2016, 2018 & 2021")%>%
     rename(latitude=Latitude, longitude=Longitude)
 
 RREX17<-RREX17%>%
@@ -60,11 +60,19 @@ F19<-F19%>%
   mutate(site="FICARAM-2019", colour=7, note="FICARAM-2019")%>%
   rename(latitude=Latitude, longitude=Longitude)
 
+SINES <- read_excel("C:/Users/MFontela/OneDrive - Universidade de Vigo/EUROFLEETS/SINES/data/SINES EVENTS.xlsx")%>%
+  filter(`Tool category`=="CTD")%>%
+  distinct((Station),.keep_all = T)%>%
+  select(Latitude,Longitude)%>%
+  mutate(site="SINES-2022", colour=8, note="SINES-2022")%>%
+  rename(latitude=Latitude, longitude=Longitude)
+
 info<-info%>% 
   bind_rows(RREX15)%>% 
   bind_rows(BOCATS)%>% 
   bind_rows(RREX17)%>% 
-  bind_rows(F19)
+  bind_rows(F19)%>%
+  bind_rows(SINES)
 
 #movida iconos
   estudios<-makeIcon("C:/Users/MFontela/Documents/web/map_icons/university_school-512.png", iconWidth = 68, iconHeight = 75,
@@ -96,7 +104,8 @@ addAwesomeMarkers(lng=~longitude[info$colour<4], lat=~latitude[info$colour<4], p
   addCircleMarkers(lng=~longitude[info$colour==4], lat=~latitude[info$colour==4], popup=~note[info$colour==4], label=~site[info$colour==4],radius=1,color="blue",labelOptions =labelOptions(noHide = F, direction = 'auto'))%>%
   addCircleMarkers(lng=~longitude[info$colour==5], lat=~latitude[info$colour==5], popup=~note[info$colour==5], label=~site[info$colour==5],radius=1,color="red",labelOptions =labelOptions(noHide = F, direction = 'auto'))%>%
   addCircleMarkers(lng=~longitude[info$colour==6], lat=~latitude[info$colour==6], popup=~note[info$colour==6], label=~site[info$colour==6],radius=1,color="darkcyan",labelOptions =labelOptions(noHide = F, direction = 'auto'))%>%
-  addCircleMarkers(lng=~longitude[info$colour==7], lat=~latitude[info$colour==7], popup=~note[info$colour==7], label=~site[info$colour==7],radius=1,color="white",labelOptions =labelOptions(noHide = F, direction = 'auto'))
+  addCircleMarkers(lng=~longitude[info$colour==7], lat=~latitude[info$colour==7], popup=~note[info$colour==7], label=~site[info$colour==7],radius=1,color="white",labelOptions =labelOptions(noHide = F, direction = 'auto'))%>%
+  addCircleMarkers(lng=~longitude[info$colour==8], lat=~latitude[info$colour==8], popup=~note[info$colour==8], label=~site[info$colour==8],radius=2,color="orange",labelOptions =labelOptions(noHide = F, direction = 'auto'))
 m  # Print the map
 
 ```

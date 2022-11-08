@@ -1,0 +1,30 @@
+---
+title: "Mentoring & Teaching resources"
+---
+
+<p align="center">
+![ ](SINES_group.jpg)
+</p>
+
+## Mentoring
+
+*(reverse chronological order)*
+
+
+* **Sofía Nieto Romero.** Undergraduate project, BSc Oceanography University of Vigo 2022-2023.
+
+* **Dunia Ríos Yunes.** PhD researcher at NIOZ, Netherlands. [GOA-ON](http://www.goa-on.org/) network [Pier2Peer Program](http://www.goa-on.org/pier2peer/pier2peer.php). [The Ocean Foundation](https://oceanfdn.org/) grant. 2022-2023.
+
+* **Verynice Herman Temu**. Laboratory Scientist at the School of Aquatic Sciences and Fisheries Technology of the University of Dar es Salam, Tanzania. NF-POGO-Eurofleets+ Shipboard Training. The Partnership for Observation of the Global Ocean [(POGO)](https://pogo-ocean.org/). 2022
+
+* **[Nils Lucas Jacobsen](https://www.nils-jacobsen.com/)** [IMBRSea Professional Practice](http://www.imbrsea.eu/professional-practice) 2020-2021. [Detecting Trends in Ocean Acidification and Deoxygenation with Open Data](https://www.nils-jacobsen.com/projects/ocean-acidification)
+
+
+## Teaching materials
+
+* [ECOI_P2](app_alumnos.txt){target="_blank"}, Práctica 2, Ecología I. Muestreo de poblaciones naturales: estimación del tamaño poblacional y de la distribución espacial. Grado en Biología, UVIGO, Octubre 2022.
+
+* [CANAIMOC Workshop](CANAIMOC.html){target="_blank"}, Carbon cycle in the ocean and methods to estimate anthropogenic carbon, IFREMER-Brest, February 2021.
+
+* [eOMP](OMP_simplificado.html){target="_blank"}, Distribución de masas de agua: análisis OMP extendido - Caso práctico, Máster interuniversitario de Oceanografía ULPGC, 2019.
+
