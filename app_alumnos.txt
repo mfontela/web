@@ -1,3 +1,9 @@
+list.of.packages <- c("shiny", "readxl")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+#This step install packages when needed
+rm(list.of.packages,new.packages)#clean
+
 library(shiny)
 library(readxl)
 #Load data
