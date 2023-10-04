@@ -13,7 +13,7 @@
 
 <title>Outreach &amp; Divulgation</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -173,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -182,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -235,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -289,12 +290,6 @@ sites/working groups where I have collaborated.</p>
 <div id="networking" class="section level2">
 <h2>Networking</h2>
 <ul>
-<li><p>Member of the working group: <a
-href="https://www.euromarinenetwork.eu/OYSTER" target="_blank">Orienting
-Young Scientists of EuroMarine “OYSTER”</a>, a <a
-href="https://www.euromarinenetwork.eu/" target="_blank">EUROMARINE</a>
-group established to engage and support early career marine
-scientists.</p></li>
 <li><p>Member of the <a
 href="https://www.pml.ac.uk/Research/Projects/North_East_Atlantic_hub_of_the_Global_Ocean_Acidif"
 target="_blank">North East Atlantic hub of the Global Ocean
@@ -308,6 +303,12 @@ target="_blank">Past Global Changes Early-Career Network (PAGES ECN)</a>
 and the Young Earth System Scientists community <a
 href="https://www.yess-community.org/"
 target="_blank">YESS</a>.</p></li>
+<li><p>Past member of the working group: <a
+href="https://www.euromarinenetwork.eu/OYSTER" target="_blank">Orienting
+Young Scientists of EuroMarine “OYSTER”</a>, a <a
+href="https://www.euromarinenetwork.eu/" target="_blank">EUROMARINE</a>
+group established to engage and support early career marine scientists.
+(2020-2023)</p></li>
 </ul>
 </div>
 <div id="seminars" class="section level2">
@@ -402,14 +403,19 @@ target="_blank">Unha tese afonda na relación entre as correntes do
 Atlántico e os sumidoiros de carbono</a>, Gciencia, 2018.</p></li>
 </ul>
 </div>
-<div id="radio" class="section level2">
-<h2>Radio</h2>
+<div id="radio-podcasts" class="section level2">
+<h2>Radio &amp; Podcasts</h2>
 <ul>
-<li><a
+<li><p><a
+href="https://elpais.com/podcasts/hoy-en-el-pais/2023-09-17/diario-de-abordo-el-equipo-que-vigila-la-salud-de-los-oceanos.html"
+target="_blank">Diario de a bordo: el equipo que vigila la salud de los
+océanos</a>, Hoy en EL PAÍS, septiembre 2023. Grabado, escrito y montado
+por Marta Curiel.</p></li>
+<li><p><a
 href="http://www.canalextremadura.es/alacarta/radio/audios/principio-de-incertidumbre-el-co2-y-la-destruccion-de-los-corales-del"
 target="_blank">El CO<sub>2</sub> y la destrucción de los corales del
 Atlántico Norte</a>, Principio de Incertidumbre, Radio Extremadura,
-2018.</li>
+2018.</p></li>
 </ul>
 </div>
 <div id="other-dissemination-activities" class="section level2">

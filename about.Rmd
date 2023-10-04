@@ -5,7 +5,7 @@ title: "About Me"
 ![](MarcosFontela_feb2019.jpeg)
 </p>
 
-## Education
+## Education and career
 
 - BSc Oceanography (University of Vigo 2005-2010)
 
@@ -15,9 +15,14 @@ title: "About Me"
 
 - PhD Oceanography (Institute of Marine Research - IIM-CSIC, Vigo 2015-2018)
 
+- Postdoctoral researcher, Oceanography and Climate Change group, Centre of Marine Sciences of Algarve - CCMAR, Faro (2019-2021)
+
+- Postdoctoral researcher Biological Oceanography Group , Marine Research Centre (CIM) Universidade de Vigo (2021-2023)
+
+- Research Assistant Oceanography Department Institute of Marine Research - IIM-CSIC, Vigo (2023- ongoing)
 
 
-You can find more information in the map. The little points in the ocean are stations of the oceanographic cruises in which I have participated so far: the ["Reykjanes Ridge Experiment" (RREX)](http://www.umr-lops.fr/Projets/Projets-actifs/RREX){target="_blank"} in 2015 and 2017;  the ["BOCATS-OVIDE"](http://bocats.iim.csic.es/en){target="_blank"} in 2016, 2018 and 2021 and the FICARAM cruise in 2019. Recently, at the end of 2022, I had my first experience as PI of an oceanographic cruise in the SW of the Iberian Upwelling System ["EUROFLEETS+ SINES"](https://express.adobe.com/page/zXixsvSEip2uq/)
+You can find more information in the map. The little points in the ocean are stations of the oceanographic cruises in which I have participated so far: the ["Reykjanes Ridge Experiment" (RREX)](http://www.umr-lops.fr/Projets/Projets-actifs/RREX){target="_blank"} in 2015 and 2017;  the ["BOCATS-OVIDE"](http://bocats.iim.csic.es/en){target="_blank"} in 2016, 2018, 2021 and 2023 and the FICARAM cruise in 2019. Recently, at the end of 2022, I had my first experience as PI of an oceanographic cruise in the SW of the Iberian Upwelling System ["EUROFLEETS+ SINES"](https://express.adobe.com/page/zXixsvSEip2uq/)
 
 ```{r echo=FALSE}
 #Para los links de las publicaciones: Acúerdate de ponerle el target="_blank" al archivo .html que te genera luego si quieres que no te fusile la puta ventana 
