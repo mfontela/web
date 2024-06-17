@@ -11,9 +11,17 @@ title: "Mentoring & Teaching resources"
 *(reverse chronological order)*
 
 
-* **Carlos Nieto Molinos** Undergraduate project, BSc Oceanography University of Vigo 2022-2023.
+* **María Paz Rendal** Undergraduate project, BSc Oceanography University of Las Palmas de Gran Canaria 2023-2024. Air-sea CO2  exchange in the Algarve shelf is underestimated in current coastal CO2 flux assessments
 
-* **Sofía Nieto Romero.** Undergraduate project, BSc Oceanography University of Vigo 2022-2023.
+* **Cleo van Rijs** [IMBRSea Professional Practice](http://www.imbrsea.eu/professional-practice) 2023-2024. Ocean underway observations of Climate-Relevant Biogeochemical variables in the Galician Rías.
+
+* **Nour Bocquet ** [IMBRSea Professional Practice](http://www.imbrsea.eu/professional-practice) 2023-2024. Coupling Global Ocean Dexoygenation and Acidification trough Machine Learning products. 
+
+* **Carlos Nieto Molinos** Undergraduate project, BSc Oceanography University of Vigo 2022-2023.  Abundancia de bacterioplancto asociada a un gradiente costa-océano no Suroeste da Península Ibérica.
+
+* **Sofía Nieto Romero.** Undergraduate project, BSc Oceanography University of Vigo 2022-2023. 
+ Magnitud y estructura de tamaños de la clorofila en el gradiente costa-océano del Suroeste de la Península Ibérica en septiembre 2022.
+
 
 * **Dunia Ríos Yunes.** PhD researcher at NIOZ, Netherlands. [GOA-ON](http://www.goa-on.org/) network [Pier2Peer Program](http://www.goa-on.org/pier2peer/pier2peer.php). [The Ocean Foundation's](https://oceanfdn.org/) International Ocean Acidification Initiative grant. 2022-2023.
 

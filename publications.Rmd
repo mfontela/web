@@ -7,7 +7,25 @@ title: "Publications"
 </p>
 
 
+*(in progress)*
+
+
+- Puzzling out the ecological niche construction for nitrogen fixers in a coastal upwelling system.
+
+
+- Interannual air-sea CO~2~ Fluxes in the NW Iberian Upwelling System.
+
+
+- The imprint of anthropogenic climate change in the SW Iberian Upwelling System: a warmer, more acidic and less oxygenated ocean. 
+
 *(reverse chronological order)*
+
+
+- Mercier, H., Desbruyères, D., Lherminier, P., Velo, A., Carracedo, L., **Fontela, M.**, and Pérez, F. F.: 2024 - [New insights into the eastern subpolar North Atlantic meridional overturning circulation from OVIDE](https://os.copernicus.org/articles/20/779/2024/){target="_blank"}. Ocean Sci., 20, 779–797, https://doi.org/10.5194/os-20-779-2024
+
+
+- Miloslavich, P., O’Callaghan, J., Heslop, E., McConnell, T., Heupel, M., Satterthwaite, E., Lorenzoni, L., Schloss, I., Belbeoch, M., Rome, N., Widdicombe, S., Olalekan Elegbede, I. & **Fontela, M.** (2024). - [Ocean Decade Vision 2030 White Papers - Challenge 7: Sustainably expand the Global Ocean Observing System](https://unesdoc.unesco.org/ark:/48223/pf0000390124.locale=en){target="_blank"}. Paris, UNESCO-IOC. (The Ocean Decade Series, 51.7.). https://doi.org/10.25607/brxb-kr45
+
 
 
 - **Fontela, M.**, Velo, A., Brown,P. J., Pérez, F., 2023 - [Carbonate System Species and pH](https://link.springer.com/chapter/10.1007/978-3-031-14486-8_1){target="_blank"}. Book chapter in Marine Analytical Chemistry Springer Nature Switzerland AG 2023 J. Blasco, A. Tovar-Sánchez (eds.). DOI:10.1007/978-3-031-14486-8_1
