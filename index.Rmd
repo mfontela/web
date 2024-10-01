@@ -13,8 +13,9 @@ title: "Marcos Fontela"
 Trying to explain carbon cycle in a changing ocean
 
 [IP of BOGAR](https://oceandecade.org/actions/ocean-observations-of-surface-waters-in-galicia-bogar/){target="_blank"}, a UN Ocean Decade endorsed project.
- 
- 
+
+<!-- Alinea dos imágenes una al lado de la otra -->
 <p align="center">
-![](MarcosFontela-sampling.jpeg)
+  <img src="MarcosFontela-sampling.jpeg" alt="Marcos Fontela" style="width:45%">
+  <img src="bogar_logo_derecha.png" alt="BOGAR logo" style="width:45%; margin-top: 10px;">
 </p>
