@@ -21,7 +21,7 @@ title: "Publications"
 *(reverse chronological order)*
 
 
-- Fernández Castro, B., Fernández Román, D., Ferron, B., **Fontela, M.**, Lherminier, P., Naveira Garabato, A., Pérez, F. F., Spingys, C., Polzin, K., Velo, A. 2024. [Isopycnal eddy stirring dominates thermohaline mixing in the upper subpolar North Atlantic](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JC020817){target="_blank"}. Journal of Geophysical Research: Oceans, 129, e2023JC020817. https://doi.org/10.1029/2023JC020817
+- Fernández Castro, B., Fernández Román, D., Ferron, B., **Fontela, M.**, Lherminier, P., Naveira Garabato, A., Pérez, F. F., Spingys, C., Polzin, K., Velo, A. 2024. [Isopycnal eddy stirring dominates thermohaline mixing in the upper subpolar North Atlantic](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JC020817){target="_blank"}. Journal of Geophysical Research: Oceans, 129, e2023JC020817. https://doi.org/10.1029/2023JC020817{target="_blank"}
 
 
 - Mercier, H., Desbruyères, D., Lherminier, P., Velo, A., Carracedo, L., **Fontela, M.**, and Pérez, F. F.: 2024 - [New insights into the eastern subpolar North Atlantic meridional overturning circulation from OVIDE](https://os.copernicus.org/articles/20/779/2024/){target="_blank"}. Ocean Sci., 20, 779–797, https://doi.org/10.5194/os-20-779-2024
