@@ -3,7 +3,7 @@ title: "Mentoring & Teaching resources"
 ---
 
 <p align="center">
-<img src="SINES_group.jpg" style="width: 450px;">
+<img src="SINES_group.jpg" style="width: 650px;">
 </p>
 
 ## Mentoring
