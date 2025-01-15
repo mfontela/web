@@ -3,13 +3,12 @@ title: "Mentoring & Teaching resources"
 ---
 
 <p align="center">
-![ ](SINES_group.jpg)
+<img src="SINES_group.jpg" style="width: 450px;">
 </p>
 
 ## Mentoring
 
 *(reverse chronological order)*
-
 
 * **María Paz Rendal** Undergraduate project, BSc Oceanography University of Las Palmas de Gran Canaria 2023-2024. Air-sea CO2  exchange in the Algarve shelf is underestimated in current coastal CO2 flux assessments
 

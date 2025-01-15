@@ -6,11 +6,15 @@ navbar:
     href: index.html
   - text: Publications
     href: publications.html 
+  - text: Projects
+    href: projects.html
+  - text: Data
+    href: data.html
   - text: About Me
     href: about.html
   - text: Outreach
     href: outreach.html  
-  - text: Mentoring
+  - text: Mentoring & Teaching
     href: mentoring.html      
 output:
   html_document:
