@@ -14,7 +14,7 @@ title: "Publications"
 
 *(reverse chronological order, first-author publications are listed along with a related figure.)*
 
--   **Fontela, M.**, Fernández-Román, D., Farnelid, H., Fernández-Carrera, A., Marañón, E., Martínez-García, S., Rodríguez-Ramos, T., Varela, M.M., Mouriño-Carballido, B. 2025.  [Puzzling out the ecological niche construction for nitrogen fixers in a coastal upwelling system.](www.google.com){target="_blank"}. ISME Communications (currently in minor review)
+-   **Fontela, M.**, Fernández-Román, D., Farnelid, H., Fernández-Carrera, A., Marañón, E., Martínez-García, S., Rodríguez-Ramos, T., Varela, M.M., Mouriño-Carballido, B. 2025.  [Puzzling out the ecological niche construction for nitrogen fixers in a coastal upwelling system.](Fontela_2025_author_version.pdf){target="_blank"}. ISME Communications (currently in minor review)
 
 <p align="center">
 <img src="Fontela2025_niche.png" style="width: 850px;">
