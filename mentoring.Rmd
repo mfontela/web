@@ -10,6 +10,8 @@ title: "Mentoring & Teaching resources"
 
 *(reverse chronological order)*
 
+* **Javier López Fernández** Undergraduate project, BSc Oceanography University of Vigo 2024-2025.  Dissolved Organic Carbon in the coastal-ocean gradient of the SW Iberian Peninsula.
+
 * **María Paz Rendal** Undergraduate project, BSc Oceanography University of Las Palmas de Gran Canaria 2023-2024. Air-sea CO2  exchange in the Algarve shelf is underestimated in current coastal CO2 flux assessments
 
 * **Cleo van Rijs** [IMBRSea Professional Practice](http://www.imbrsea.eu/professional-practice) 2023-2024. Ocean underway observations of Climate-Relevant Biogeochemical variables in the Galician Rías.

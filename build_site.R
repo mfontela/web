@@ -13,3 +13,4 @@ rmarkdown::render_site(encoding = 'UTF-8')
 #Otro link importante: https://login.ionos.es/ (lo del dominio)
 
 #Otro tip: si las fotos pierden la posición centrada, repasa las <p align="center"> </p> del html (que nos las duplique)
+#TIP RyC y similares: link a los pdfs que se llamen igual y sustituyes uno por otro

@@ -14,7 +14,19 @@ title: "Publications"
 
 *(reverse chronological order, first-author publications are listed along with a related figure.)*
 
--   **Fontela, M.**, Fernández-Román, D., Farnelid, H., Fernández-Carrera, A., Marañón, E., Martínez-García, S., Rodríguez-Ramos, T., Varela, M.M., Mouriño-Carballido, B. 2025.  [Puzzling out the ecological niche construction for nitrogen fixers in a coastal upwelling system.](Fontela_2025_author_version.pdf){target="_blank"}. ISME Communications (currently in minor review)
+-   O'Callaghan, J., Miloslavich, P., Lorenzoni, L., Satterthwaite, E., Heupel, M., Rome, N., Schloss, I., Elegbede, I., **Fontela, M.** 2025.  [The cross-cutting role of Challenge 7 in achieving a sustainable and resilient global ocean observing system for the next decade.](https://doi.org/10.1093/icesjms/fsaf079){target="_blank"}. ICES Journal of Marine Science, 2025. <https://doi.org/10.1093/icesjms/fsaf079>
+
+
+-   Graversen, A.E.L., Lønborg, C., ... **Fontela, M.**, ... Krause-Jensen, D. 2025.  [A marine and salt marsh sediment organic carbon database for European regional seas (EURO-CARBON).](https://www.sciencedirect.com/science/article/pii/S2352340925003270){target="_blank"}. Data in Brief
+Volume 60, June 2025, 111595. <https://doi.org/10.1016/j.dib.2025.111595>
+
+-   Lubośny, M., Annasawmy, P., Burgués Martínez, I., Turk Dermastia, T., Espasandín, L., Fernandes, J.F., **Fontela, M.**, Galobart, C., Garcia-Garin, O., Gregório, I., Llopis Monferrer, N., López-Acosta, M., Mazurkiewicz, M., Piñeiro-Juncal, N., Schadeberg, A., Scopetani, C., Sowa, A., Suaria, G., Tsiola, A. 2025. [How institutions can better support international early-career researchers](https://www.nature.com/articles/s41562-025-02125-5){target="_blank"}. Nature Human Behaviour 9, 421–423 (2025). <https://doi.org/10.1038/s41562-025-02125-5>
+
+-   Vargas-Yáñez, M., Marcos, M., **Fontela, M.** & Somavilla, R. 2025 - [Physical and biogeochemical changes in the ocean around Spain during the observational period: variability, trends and drivers](http://clivar.es/wp-content/uploads/2025/03/Libro_THE_CLIVAR-SPAIN_REPORT_on_the_climate_in_Spain.pdf){target="_blank"}. Book chapter in the CLIVAR-SPAIN report on the climate in Spain 2025. Ministerior para la Transición Ecológica y el Reto Demográfico (MITECO). ISBN: 978-84-18778-49-0
+
+
+
+-   **Fontela, M.**, Fernández-Román, D., Farnelid, H., Fernández-Carrera, A., Marañón, E., Martínez-García, S., Rodríguez-Ramos, T., Varela, M.M., Mouriño-Carballido, B. 2025.  [Puzzling out the ecological niche construction for nitrogen fixers in a coastal upwelling system.](https://academic.oup.com/ismecommun/article/5/1/ycaf018/7998810){target="_blank"}. ISME Communications Volume 5, Issue 1, January 2025. <https://doi.org/10.1093/ismeco/ycaf018>
 
 <p align="center">
 <img src="Fontela2025_niche.png" style="width: 850px;">
