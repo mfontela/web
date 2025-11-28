@@ -6,9 +6,16 @@ title: "Mentoring & Teaching resources"
 <img src="SINES_group.jpg" style="width: 650px;">
 </p>
 
+## PhD thesis 
+
+* **Blanca Marigómez Roldán** PhD candidate (2025-ongoing). Ocean acidification and anthropogenic carbon dioxide in the South Atlantic and Southern Ocean. IIM-CSIC
+
+
 ## Mentoring
 
 *(reverse chronological order)*
+
+* **Javier López Fernández** MSc Oceanography University of Vigo 2025-2026.  Air-Sea Carbon Dioxide Fluxes in San Simón bay (inner Ría de Vigo).
 
 * **Javier López Fernández** Undergraduate project, BSc Oceanography University of Vigo 2024-2025.  Dissolved Organic Carbon in the coastal-ocean gradient of the SW Iberian Peninsula.
 
