@@ -1,5 +1,5 @@
 #Set our working directory. 
-setwd("C:/Users/marcos/Seafile/marcosmfontela/web")
+setwd("C:/Users/marco/Seafile/marcosmfontela/web")
 
 #render your site. 
 rmarkdown::render_site(encoding = 'UTF-8')
