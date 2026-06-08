@@ -18,6 +18,8 @@ title: "Publications"
 
 *(reverse chronological order, first-author publications are listed along with a related figure.)*
 
+-   Detoni, A. M. S., Oliveira, N. R., Zoffoli, M. L., Gege, P., Caballero, I., Navarro, G., **Fontela, M.**, Álvarez Fernández, M. J., López Serrano, M., Moreno, L., Gomes Teixeira, I., Velo, A., and Padín, X. A. 2026. [Unveiling optical and phytoplankton variability in the northwestern Iberian Peninsula using in-situ radiometry and the Water Colour Simulator – WASI](https://www.sciencedirect.com/science/article/pii/S0272771426002714){target="_blank"}. Estuar. Coast. Shelf Sci., 340, 109976. <https://doi.org/10.1016/j.ecss.2026.109976>.
+
 -   Pérez, F. F., López-Mozos, M., **Fontela, M.**, García-Ibáñez, M. I., Fajar, N., Padín, A., Castaño-Carrera, M., de la Paz, M., Carracedo, L. I., Álvarez, M., Lherminier, P., and Velo, A. 2025. [Two decades of pHT measurements along the GO-SHIP A25 section](https://doi.org/10.5194/essd-2025-476){target="_blank"}. Earth Syst. Sci. Data Discuss, 2025. <https://doi.org/10.5194/essd-2025-476>
 
 -   O'Callaghan, J., Miloslavich, P., Lorenzoni, L., Satterthwaite, E., Heupel, M., Rome, N., Schloss, I., Elegbede, I., **Fontela, M.** 2025. [The cross-cutting role of Challenge 7 in achieving a sustainable and resilient global ocean observing system for the next decade.](https://doi.org/10.1093/icesjms/fsaf079){target="_blank"}. ICES Journal of Marine Science, 2025. <https://doi.org/10.1093/icesjms/fsaf079>
