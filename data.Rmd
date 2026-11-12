@@ -5,12 +5,19 @@ title: "Datasets"
 
 Sharing **FAIR** data (*Findable, Accessible, Interoperable, and Reusable*) fosters collaboration, ensures transparency, and enables reproducibility in scientific research. Reproducibility is especially important in oceanography, where large amounts of data from multiple and diverse sources are generated, and large computational methods are used. By adhering to [FAIR principles](https://force11.org/info/the-fair-data-principles/){target="blank"}, I actively contribute to the open distribution of high-quality datasets. Making research data **openly available** to the scientific community is in alignment with the goals of the public entities that provide funding for my research. The commitment to reproducible science should be at the forefront of good practices in the coming future. 
 
-<p align="center">
+<p align="center" class="data-figure">
 <img src="MarcosFontela_filmisnotdead.jpeg" style="width: 650px;">
 </p>
 
+<nav class="data-index">
+<a href="#sines">SINES</a>
+<a href="#ovide">OVIDE</a>
+<a href="#fco2galicia">fCO<sub>2</sub>GalicIA</a>
+<a href="#oaepiip">OAEPIIP</a>
+<a href="#arios">ARIOS</a>
+</nav>
 
-## SINES-related:
+## SINES-related: {#sines}
 
 - **Fontela, M.**, Abrantes, F., Álvarez-Fernández, M. J., Borges de Sousa, J., Choi Wang, D., Curbelo, D., Fernández-Román, D., Ferreira, F., Fuentes-Lema, A., Gebara, L., Gomes, M., Herman, T. V., Mega, A., Mendes, R., Molina, G., Muacho, S., Nieto, S., Pereira, H., Pereira, J., Ramalho, S., Relvas, P., Rios-Yunes, D., Serpa, T., Voelker, A. (2022). [Hydrographic dataset from the Eurofleets+ SINES 2022 research cruise in the Iberian Upwelling System](https://doi.org/10.17882/91156){target="_blank"}. SEANOE.
 
@@ -18,26 +25,54 @@ Sharing **FAIR** data (*Findable, Accessible, Interoperable, and Reusable*) fost
 
 - **Fontela, M.**, UTM-CSIC (2022). [SINES Cruise, RV Sarmiento de Gamboa](https://doi.org/10.20351/29sg20220911){target="_blank"}. UTM-CSIC.
 
-<p align="center">
+<p align="center" class="data-figure">
 <img src="SINES_map_SEANOE.png" style="width: 450px;">
 </p>
 
-## GO-SHIP A25 OVIDE-related:
-
-- Lherminier, P., Pérez, F. F., Branellec, P., Mercier, H., Velo, A., Messias, M. J., Castrillejo, M., Reverdin, G., **Fontela, M.**, Baurand, F. (2022). [GO-SHIP A25 - OVIDE 2018 Cruise data](https://doi.org/10.17882/87394){target="_blank"}. SEANOE.
-
+## GO-SHIP A25 OVIDE-related: {#ovide}
 
 - Pérez, F. F., García-Ibáñez, M. I., **Fontela, M.**, Lherminier, P., Branellec, P., Zunino, P., Alonso Pérez, F., de la Paz, M., Padín, X. A. (2017). [Carbon Dioxide, Hydrographic, and Chemical Data Obtained During the R/V Sarmiento de Gamboa Cruise in the North Atlantic Ocean on CLIVAR Repeat Hydrography Section OVIDE-2016-BOCATS](https://doi.org/10.20350/digitalCSIC/8513){target="_blank"}. Digital.CSIC. http://doi.org/10.20350/DIGITALCSIC/8513
 
+- Lherminier, P., Pérez, F. F., Branellec, P., Mercier, H., Velo, A., Messias, M. J., Castrillejo, M., Reverdin, G., **Fontela, M.**, Baurand, F. (2022). [GO-SHIP A25 - OVIDE 2018 Cruise data](https://doi.org/10.17882/87394){target="_blank"}. SEANOE.
+
+- Lherminier, P., Velo, A., Pérez, F. F., Le Bihan, C., López-Acosta, M., **Fontela, M.**, López-Mozos, M., Padín, X. A., Hamon, M., Le Bot, P., Bajon, R., Chenal, A., Cameselle-Salgado, P., Cameselle, S., Cosme, L., López Fernández, J., Ernst, J., Lasa Gonzales, A., Fernández Castro, B., Fernández Román, D. (2023). [BOCATS2 2023 Cruise data along the A25-OVIDE section](https://doi.org/10.17882/95607){target="_blank"}. SEANOE.
 
 - **Fontela, M.**, Alonso-Pérez, F., Bastero, S., Thierry, V., Pérez, F. F. (2024). [Discrete measurements of pH, dissolved inorganic nutrients (nitrate, phosphate and silicate) and hydrographic variables (salinity, temperature, dissolved oxygen) obtained during the cruise RREX 2015](https://doi.org/10.17882/102883){target="_blank"}. SEANOE.
 
-## Iberian Upwelling System Database: ARIOS  
+<p align="center" class="data-figure">
+<img src="OVIDE_map.png" style="width: 550px;">
+</p>
+
+## NW Iberian Upwelling System air-sea CO~2~ product: fCO~2~GalicIA {#fco2galicia}
+
+- **Fontela, M.**, Padín, X. A. (2026). [Weekly gridded air-sea CO~2~ fugacity difference (ΔfCO~2~), its uncertainty and air–sea CO~2~ flux in the NW Iberian Upwelling System from the fCO~2~GalicIA machine-learning ensemble (1998–2021)](https://digital.csic.es/handle/10261/447565){target="_blank"}. Digital.CSIC. https://doi.org/10.20350/digitalCSIC/29318
+
+- Padín, X. A., **Fontela, M.**, Velo, A., Castaño, M., Pardo, P., Ríos, A., Pérez, F. F. (2026). [Fugacity of carbon dioxide and other ancillary variables collected from surface underway observations in the NW Iberian Upwelling System (Galician coast, 1997–2014)](https://digital.csic.es/handle/10261/447530){target="_blank"}. Digital.CSIC. https://doi.org/10.20350/digitalCSIC/29315
+
+- Code and data processing: [github.com/mfontela/fCO2GalicIA](https://github.com/mfontela/fCO2GalicIA){target="_blank"}
+
+<p align="center" class="data-figure">
+<img src="seasonal_climatology.png" style="width: 850px;">
+</p>
+
+## Ocean Alkalinity Enhancement Pelagic Impact Intercomparison Project (OAEPIIP) {#oaepiip}
+
+This project, funded by the Carbon to Sea Initiative and endorsed by SOLAS, represents a globally coordinated effort to investigate the potential effects of ocean alkalinity enhancement on diverse plankton communities. Spanish Intercomparison experiment leader: **Marcos Fontela**.
+
+- **Fontela, M.**, Froján, M., Arbones, B., Álvarez-Fernández, M. J., César-Ribeiro, C., Doval, M., Garrido, J. L., Groppelli, S., López-Acosta, M., López-Rodríguez, M., Hinojo, C. L., Marigómez, B., Moreno, L., Pérez, F. F., Gomes Teixeira, I., Velo, A., Padín, X. A. (2026). [Ocean Alkalinity Enhancement Pelagic Impact Intercomparison Project (OAEPIIP) Vigo May 2025 experiment data report](https://doi.org/10.20350/digitalCSIC/29188){target="_blank"}. Digital.CSIC. https://doi.org/10.20350/digitalCSIC/29188
+
+- Code and data processing: [github.com/mfontela/OAEPIIP](https://github.com/mfontela/OAEPIIP){target="_blank"}
+
+<p align="center" class="data-figure">
+<img src="OAEPIIP_mesocosms.png" style="width: 650px;">
+</p>
+
+## Iberian Upwelling System Database: ARIOS {#arios}
 
 - Padín, X. A., Doval, M. D., Álvarez-Fernández, M. J., Rey, J., Rellán, T., **Fontela, M.**, Broullón, D., Mohamed-Santamaría, S., Gilcoto, M., Prego, R., Pérez, F. F. (2019). [Arios surveys: Hydrographic and chemical data on SW Galician shelf](https://doi.org/10.20350/digitalCSIC/9963){target="_blank"}. Digital.CSIC. https://doi.org/10.20350/digitalCSIC/9963  
 
 The name *ARIOS* was chosen as a lasting tribute to [Aida Ríos](https://oceanicas.ieo.es/historias-de-pioneras/aida-fernandez/){target="_blank"}, a pioneering woman in the study of ocean acidification.
 
-<p align="center">
+<p align="center" class="data-figure">
 <img src="AidaRios_oceanica.png" style="width: 350px;">
 </p>

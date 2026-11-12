@@ -14,3 +14,31 @@ a:hover {
   color: #00008B;
 
 }
+
+/* data.Rmd: space around figures */
+.data-figure {
+  margin: 20px 0 35px;
+}
+
+/* data.Rmd: jump-to index */
+.data-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 30px;
+}
+
+.data-index a {
+  padding: 4px 14px;
+  border: 1px solid #008B8B;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+.data-index a:hover {
+  background: #008B8B;
+  color: #fff;
+  text-decoration: none;
+}

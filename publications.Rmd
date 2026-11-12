@@ -12,9 +12,13 @@ knitr::include_graphics("MarcosFontela_CVweb.jpeg")
 
 -   **Fontela, M.**, Voelker, A., *SINES crew*, Abrantes, F. [The imprint of anthropogenic climate change in the SW Iberian Upwelling System: a warmer, more acidic and less oxygenated ocean.](https://digital.csic.es/handle/10261/365006){target="_blank"}
 
--   **Fontela, M.**, Froján, Arbones, López-Acosta, Álvarez-Fernández, Marigómez, [...], Padin. [Plankton community response to ocean alkalinity enhancement in the Northwest Iberian Upwelling System during a spring bloom](https://appliedbgc.imas.utas.edu.au/ocean-alkalinity-enhancement-pelagic-impact-intercomparison-project/){target="_blank"}
-
 *(reverse chronological order, first-author publications are listed along with a related figure.)*
+
+-   **[29]** **Fontela, M.**, Froján, M., Arbones, B., Álvarez-Fernández, M. J., César-Ribeiro, C., Doval, M., Garrido, J. L., Groppelli, S., López-Acosta, M., López-Rodríguez, M., Hinojo, C. L., Marigómez, B., Moreno, L., Pérez, F. F., Gomes Teixeira, I., Velo, A., and Padin, X. A. 2026. [Ocean alkalinity enhancement pelagic impact in the Northwest Iberian Upwelling System under nutrient limited conditions](https://egusphere.copernicus.org/preprints/2026/egusphere-2026-5658/){target="_blank"}. EGUsphere [preprint], under review for Biogeosciences. DOI: 10.5194/egusphere-2026-5658
+
+```{r echo=FALSE, fig.align='center', out.width='600px'}
+knitr::include_graphics("Fontela2026_OAEPIIP.png")
+```
 
 -   **[28]** McDonagh, E. L., Barbero, L., Kramp, M., Purkey, S. G., ... **Fontela, M.**, ... Yokokawa, T. 2026. [Changes in Ocean Heat, Carbon Content, Ventilation, and Biology: A Review of the Second Decade of GO-SHIP Global Repeat Hydrography](https://www.annualreviews.org/content/journals/10.1146/annurev-marine-040725-022155){target="_blank"}. Annual Review of Marine Science. DOI: 10.1146/annurev-marine-040725-022155
 

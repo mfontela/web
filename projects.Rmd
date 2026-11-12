@@ -9,7 +9,10 @@ title: "Research Projects as Principal Investigator"
 
 *(reverse chronological order)*
 
--   [**Ocean Alkalinity Enhancement Pelagic Impact Intercomparison Project (OAEPIIP)**](https://appliedbgc.imas.utas.edu.au/ocean-alkalinity-enhancement-pelagic-impact-intercomparison-project/).\
+-   **Remote Total Alkalinity Monitoring, Reporting and Verification in Aquaculture-Simulated Mesocosms (MetaCDR-CretALK)**.\
+    Transnational Access (TA) project funded by the [IRISCC (Integrated Research Infrastructure Services for Climate Change risks) Access Programme](https://www.iriscc.eu/), 3rd TA Call (Ref: IRISCC-TA-3--0000000077). The experiment took place from September to October 2026 at the CretaCosmos mesocosm facility of the Hellenic Centre for Marine Research (HCMR) in Crete, Greece.\
+
+-   [**Ocean Alkalinity Enhancement Pelagic Impact Intercomparison Project (OAEPIIP)**](https://applied-marine-biogeochemistry.org/ocean-alkalinity-enhancement-pelagic-impact-intercomparison-project/).\
     This project, funded by the Carbon to Sea Initiative and endorsed by SOLAS, represents a globally coordinated effort to investigate the potential effects of ocean alkalinity enhancement on diverse plankton communities. **Spanish Intercomparison experiment leader**: Marcos Fontela.
 
 -   **Observación de variables biogeoquímicas de relevancia climática con buques de oportunidad en la costa gallega y rías (BOGAR)**.\
